@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>decode</class>
+ <widget class="QDialog" name="decode">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>825</width>
+    <height>589</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <widget class="QPushButton" name="pushButton">
+   <property name="geometry">
+    <rect>
+     <x>320</x>
+     <y>490</y>
+     <width>151</width>
+     <height>61</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>decode</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="asci">
+   <property name="geometry">
+    <rect>
+     <x>12</x>
+     <y>200</y>
+     <width>801</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>frequency_table.txt</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="output">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>280</y>
+     <width>801</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>encode.txt</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="decode_2">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>360</y>
+     <width>801</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>decode.txt</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="source">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>120</y>
+     <width>801</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>source.txt</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>250</y>
+     <width>781</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>enter the name of the saved output binary encoded file that contains the output file results from the encoding</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_3">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>170</y>
+     <width>791</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>enter the name of the saved asci file that includes the characters used in this picture</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_4">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>90</y>
+     <width>781</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>enter the  name of the saved source file  that includes col, width and max value for the picture</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_5">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>330</y>
+     <width>791</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>enter the name of the saved output decoded file that contains the output file results from the decoding</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_6">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>410</y>
+     <width>791</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>enter the  picture name that will result from the decoding file </string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="pic">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>440</y>
+     <width>801</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>DECODED_IMG.pgm</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="folder">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>40</y>
+     <width>801</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>/home/abdallah/NewFolder/</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_7">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>10</y>
+     <width>781</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>enter the  location of the folder that contains the encoded files</string>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
